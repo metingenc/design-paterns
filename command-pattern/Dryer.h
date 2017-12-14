@@ -10,6 +10,7 @@ class Dryer
 		{
 		
 		}
+	
 		~Dryer()
 		{
 		
@@ -29,7 +30,6 @@ class Dryer
 		{
 		   std::cout<<"Dryer is running"<<std::endl;
 		}
-
 };
 
 #endif

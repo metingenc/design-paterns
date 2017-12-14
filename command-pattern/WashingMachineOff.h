@@ -8,6 +8,7 @@
 class WashingMachineOff : public Command
 {
    public:
+
 	WashingMachineOff(WashingMachine *washingMachine)
 	{
 	   this->washingMachine = washingMachine;
@@ -24,6 +25,7 @@ class WashingMachineOff : public Command
 	}
 
    private:
+
       WashingMachine *washingMachine;
 };
 

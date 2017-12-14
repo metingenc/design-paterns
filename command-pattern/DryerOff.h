@@ -8,6 +8,7 @@
 class DryerOff : public Command
 {
    public:
+
 	DryerOff(Dryer *dryer)
 	{
 	   this->dryer = dryer;
@@ -24,6 +25,7 @@ class DryerOff : public Command
 	}
 
    private:
+
       Dryer *dryer;
 };
 

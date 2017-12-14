@@ -8,6 +8,7 @@
 class DryerRun : public Command
 {
    public:
+
 	DryerRun(Dryer *dryer)
 	{
 	   this->dryer = dryer;
@@ -24,6 +25,7 @@ class DryerRun : public Command
 	}
 
    private:
+
       Dryer *dryer;
 };
 

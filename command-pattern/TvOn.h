@@ -8,6 +8,7 @@
 class TvOn : public Command
 {
    public:
+
 	TvOn(Tv *tv)
 	{
 	   this->tv = tv;
@@ -24,6 +25,7 @@ class TvOn : public Command
 	}
 
    private:
+
       Tv *tv;
 };
 

@@ -4,15 +4,8 @@
 class Command
 {
    public:
-	   Command()
-	   {
-	   
-	   }
-	  
-	   ~Command()
-	   {
-	   
-	   }
+	   Command(){}	  
+	   ~Command(){}
 
 	   virtual void execute() = 0;
 };

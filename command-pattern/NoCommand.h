@@ -7,6 +7,7 @@
 class NoCommand : public Command
 {
    public:
+
 	   void execute()
 	   {
 		   std::cout<<"Do Nothing"<<std::endl;

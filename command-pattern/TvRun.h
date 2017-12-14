@@ -8,6 +8,7 @@
 class TvRun : public Command
 {
    public:
+
 	TvRun(Tv *tv)
 	{
 	   this->tv = tv;
@@ -24,6 +25,7 @@ class TvRun : public Command
 	}
 
    private:
+
       Tv *tv;
 };
 

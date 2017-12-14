@@ -10,6 +10,7 @@ class WashingMachine
 		{
 		
 		}
+
 		~WashingMachine()
 		{
 		

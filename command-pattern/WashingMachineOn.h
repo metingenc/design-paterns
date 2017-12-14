@@ -8,6 +8,7 @@
 class WashingMachineOn : public Command
 {
    public:
+
 	WashingMachineOn(WashingMachine *washingMachine)
 	{
 	   this->washingMachine = washingMachine;
@@ -24,6 +25,7 @@ class WashingMachineOn : public Command
 	}
 
    private:
+
       WashingMachine *washingMachine;
 };
 

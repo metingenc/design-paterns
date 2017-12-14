@@ -12,8 +12,6 @@
 #include "TvOff.h"
 #include "TvOn.h"
 #include "TvRun.h"
-
-
 #include "SetupScreen.h"
 #include <iostream>
 
@@ -21,25 +19,27 @@ int main()
 {
    std::cout<<"Command Pattern Example"<<std::endl;
 
-   // Create Receivers -----------------------
+   // Create Receivers ------------------------------------
    WashingMachine *wm = new WashingMachine();
    Dryer *dryer = new Dryer();
    Tv *tv = new Tv();
-   // ----------------------------------------
+   // -----------------------------------------------------
 
-   // Create Commands -------------------------
+   // Create Commands -------------------------------------
    Command *dryerOn = new DryerOn(dryer);
    Command *dryerOff = new DryerOff(dryer);
    Command *dryerRun = new DryerRun(dryer);
+
    Command *tvOn = new TvOn(tv);
    Command *tvOff = new TvOff(tv);
    Command *tvRun = new TvRun(tv);
+
    Command *wmOff = new WashingMachineOff(wm);
    Command *wmOn = new WashingMachineOn(wm);
    Command *wmRun = new WashingMachineRun(wm);
-   // ----------------------------------------
+   // -----------------------------------------------------
 
-   // Create the Invoker and set commands ----------------
+   // Create the Invoker and set commands -----------------
    SetupScreen *setupScreen = new SetupScreen();   
    setupScreen->setCommand(0,wmOn, wmOff,wmRun);
    setupScreen->setCommand(1,dryerOn, dryerOff,dryerRun);

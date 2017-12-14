@@ -4,7 +4,7 @@ CC_FLAGS = -w
  
 # File names
 EXEC = command_pattern
-SOURCES = $(wildcard *.cpp Commands/*.cpp Receiver/*.cpp Invoker/*.cpp)
+SOURCES = $(wildcard *.cpp)
 OBJECTS = $(SOURCES:.cpp=.o)
 
 #Main target
