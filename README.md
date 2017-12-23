@@ -1,4 +1,8 @@
-# design-paterns
-Learning design patterns
-Command Pattern example is added
-Template Method Pattern example is added
+# Design Paterns
+I want to write well-known design patterns in C++ from the [Gof Book] (https://en.wikipedia.org/wiki/Design_Patterns) 
+
+Pattern images are taken from [loredanacirstea] (://github.com/loredanacirstea/staruml-design-patterns)
+
+* [Command Pattern] ((https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/command/command.png)
+
+* [Template Method Pattern] ((https://raw.githubusercontent.com/loredanacirstea/staruml-design-patterns/master/generated/Model/loretek/design_patterns/behavioral/template_method/template_method.png)
